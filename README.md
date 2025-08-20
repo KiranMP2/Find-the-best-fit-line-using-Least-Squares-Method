@@ -37,8 +37,6 @@ for x_val, y_val in zip(X, Y):
     denom += (x_val - X_mean) ** 2
 m = num / denom
 b = Y_mean - m * X_mean
-print("Register number: 212223040137")
-print("Name: Nivetha S")
 print("Slope:", m)
 print("Y-intercept:", b)
 y_predicted = m * X + b
